@@ -3,12 +3,12 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:false,
     responsive:{
-        //quantidade de itens a serem apresentados por tamanho da tela
-        // 0:{
-        //     items:1
-        // },
+        // quantidade de itens a serem apresentados por tamanho da tela
+        0:{
+            items:2
+        },
         600:{
-            items:3
+            items:4
         },
         1000:{
             items:8

@@ -1,0 +1,22 @@
+@media screen and (max-width: 700px) {
+    /* vou aplicar na tela e até 700px */
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .anime-principal .descricao{
+        font-size: 14px;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 80%;
+    }
+}
